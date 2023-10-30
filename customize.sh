@@ -16,7 +16,7 @@
 #MAXAPI=25
 #DYNLIB=true
 #PARTOVER=true
-#PARTITIONS=""
+PARTITIONS="/product"
 
 ##########################################################################################
 # Replace list
@@ -36,6 +36,7 @@ REPLACE_EXAMPLE="
 
 # Construct your own list here
 REPLACE="
+/product/priv-app/LGInCallUI
 "
 
 ##########################################################################################
